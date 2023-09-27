@@ -53,7 +53,7 @@ print(df["Product Name"])
 #11.Print sell of January month with product id and product name:
 print(df[["Product No","Product Name","January"]])
 
-#12.Print only those product id , product name where january sell is > 5000 and  and February sell is >8000")      February sell is >8000")
+#12.Print only those product id , product name where january sell is > 5000 and February sell is >8000 :   
 print(df[(df["January"]>5000)& (df["February"]>8000)][["Product No","Product Name"]])
 
 #13.Print record in sorting order of Product name:
